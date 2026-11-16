@@ -12,7 +12,7 @@ body {
 }
 /* Navigation Bar Container */
 .navbar {
-    background-color: #000;
+    background-color: #cd1313;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -89,7 +89,7 @@ body {
     background-image: url('your-background-image.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,5 +141,51 @@ body {
     font-weight: 400;
     font-style: normal;
     font-display: swap;
+}
+.about-hero{
+    background-image: url('images/mainimage.jpg');
+}
+.contact-hero{
+    background-image: url('images/miso-black-cod-2-1.jpg');
+}
+.reservations-hero{
+    background-image: url('images/shrimp-tempura-roll-004.jpg.webp');
+}
+.menu-hero{
+    background-image: url('images/quick-easy-spicy-sambal-edamame-recipe-2.jpg');
+}
+.jobs-hero{
+    background-image: url('images/bun-ga-nuong-8-500x500.jpg.webp');
+}
+.drinks-hero{
+    background-image: url('images/rsz_lychee_martini-20.jpg');
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse; /* Merges double borders into a single line */
+  font-family: Arial, sans-serif;
+}
 
+.styled-table th,
+.styled-table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Optional: Alternate row colors for readability */
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+/* Optional: Style a specific column (e.g., the 2nd column) */
+.styled-table td:nth-child(2),
+.styled-table th:nth-child(2) {
+  width: 30%;
+  font-weight: bold;
 }
